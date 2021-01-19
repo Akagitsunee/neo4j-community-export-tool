@@ -1,0 +1,2 @@
+00 12,22 * * * neo4j /var/lib/neo4j/backup/backup.sh >> /var/lib/neo4j/cron.log 2>&1
+# This extra line makes it a valid cron
