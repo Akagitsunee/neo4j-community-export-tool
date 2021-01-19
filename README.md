@@ -1,4 +1,4 @@
-# About
+# About  
 The Neo4J-Export-Tool is a bash script directly implemented into the Neo4J original image and runs as a script inside the container executed by CRON.
 
 I made this implementation because there is no proper runtime backup support in the community edition.
@@ -46,11 +46,12 @@ docker exec -it [CONTAINER_ID] /bin/bash
 - Move all params/varables to central file
 - Write the same utility with admin-tool support
 
-# Disclaimer
+# Disclaimer  
 DO NOT USE THIS UTILITY IF YOU HAVE 1M+ NODES AND DON'T KNOW WHAT YOU DO!  
-THE SCRIPTS USE A FAIR SHARE OF RESSOURCES!
+THE SCRIPTS USE A FAIR SHARE OF RESSOURCES!  
+
 **THIS WILL NOT REPLACE THE ENTERPRISE BACKUP TOOL. PLEASE BUY THE ENTERPRISE EDITION FOR PROPER SUPPORT!**
 
 # License
 
-[MIT](LICENSE.TXT)
+[MIT](LICENSE.txt)
